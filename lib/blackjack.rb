@@ -31,12 +31,12 @@ end
 def hit?(number)
   prompt_user
   input = get_user_input
-    if get_user_input == "s"
+    if input == "s"
       display_card_total(number)
-    elsif get_user_input == "h"
+    elsif input == "h"
       sum = number + deal_card
       display_card_total(number)
-    else get_user_input != "h"
+    else input != "h"
      invalid_command
     end
 end
