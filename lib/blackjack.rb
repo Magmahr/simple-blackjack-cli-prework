@@ -6,8 +6,8 @@ def deal_card
   return rand(1..11)
 end
 
-def display_card_total(number)
-  puts "Your cards add up to #{number}"
+def display_card_total(sum)
+  puts "Your cards add up to #{sum}"
 end
 
 def prompt_user
@@ -18,8 +18,8 @@ def get_user_input
   input = gets.chomp
 end
 
-def end_game(number)
-  puts "Sorry, you hit #{number}. Thanks for playing!"
+def end_game(sum)
+  puts "Sorry, you hit #{sum}. Thanks for playing!"
 end
 
 def initial_round
