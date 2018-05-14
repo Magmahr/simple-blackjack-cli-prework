@@ -41,7 +41,6 @@ def hit?(sum)
     else 
       invalid_command
     end
-  display_card_total(sum)
 end
 
 def invalid_command
