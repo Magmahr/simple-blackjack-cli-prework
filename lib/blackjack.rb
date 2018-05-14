@@ -41,6 +41,7 @@ def hit?(sum)
     else input != "h"
      invalid_command
     end
+  display_card_total
 end
 
 def invalid_command
