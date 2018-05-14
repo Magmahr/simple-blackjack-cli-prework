@@ -29,7 +29,7 @@ end
 
 def hit?(number)
   prompt_user
-  if get_user_input = "h"
+  if get_user_input == "h"
     deal_card
     display_card_total(number + deal_card)
   elsif  get_user_input != "s" || get_user_input != "h"
