@@ -32,9 +32,9 @@ def hit?(initial_round)
   prompt_user
   input = get_user_input
     if input == "s"
-      display_card_total(number)
+      display_card_total(initial_round)
     elsif input == "h"
-      sum = number + deal_card
+      sum = initial_round + deal_card
       display_card_total(sum)
     else input != "h"
      invalid_command
