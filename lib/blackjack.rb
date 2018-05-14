@@ -60,6 +60,6 @@ def runner
   until sum > 21
     hit?
   end  
-  "Game Over!"
+  end_game
 end
     
