@@ -38,7 +38,6 @@ def hit?(number)
     else get_user_input != "h"
      invalid_command
     end
-  end  
 end
 
 def invalid_command
