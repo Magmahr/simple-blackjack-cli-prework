@@ -28,7 +28,7 @@ def initial_round
   return sum
 end
 
-def hit?(number)
+def hit?(sum)
   prompt_user
   input = get_user_input
     if input == "s"
