@@ -35,7 +35,7 @@ def hit?(@sum)
       display_card_total(number)
     elsif input == "h"
       
-      display_card_total(sum)
+      display_card_total(@sum)
     else input != "h"
      invalid_command
     end
