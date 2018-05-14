@@ -34,10 +34,10 @@ def hit?(sum)
   prompt_user
   input = get_user_input
     if input == "s"
-      display_card_total(number)
+      sum
     elsif input == "h"
-      sum = number + deal_card
-      display_card_total(number)
+      sum += deal_card
+      sum
     else input != "h"
      invalid_command
     end
