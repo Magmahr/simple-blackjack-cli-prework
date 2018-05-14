@@ -23,19 +23,19 @@ def end_game(number)
 end
 
 def initial_round
-  sum = deal_card + deal_card
-  display_card_total(sum)
-  return sum
+  @sum = deal_card + deal_card
+  display_card_total(@sum)
+  return @sum
 end
 
-def hit?(number)
+def hit?(@sum)
   prompt_user
   input = get_user_input
-    if input == "s"
+    if @sum == "s"
       display_card_total(number)
     elsif input == "h"
-      sum = number + deal_card
-      display_card_total(number + deal_card)
+      
+      display_card_total(sum)
     else input != "h"
      invalid_command
     end
