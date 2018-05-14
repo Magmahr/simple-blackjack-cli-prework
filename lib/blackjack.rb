@@ -29,10 +29,10 @@ end
 
 def hit?(number)
   prompt_user
-  if prompt_user = "h"
+  if get_user_input = "h"
     deal_card
     display_card_total(number + deal_card)
-  elsif  prompt_user != "s" || prompt_user != "h"
+  elsif  get_user_input != "s" || get_user_input != "h"
    invalid_command
   end 
   display_card_total
