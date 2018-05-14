@@ -38,8 +38,8 @@ def hit?(sum)
     elsif input == "h"
       sum += deal_card
       sum
-    else input != "h"
-     invalid_command
+    else 
+      invalid_command
     end
   display_card_total(sum)
 end
