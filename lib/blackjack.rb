@@ -32,7 +32,7 @@ def hit?(number)
   if prompt_user = "h"
     deal_card
     display_card_total(number + deal_card)
-  elsif  prompt_user = "s"
+  elsif  prompt_user != "s"
     
 end
 
